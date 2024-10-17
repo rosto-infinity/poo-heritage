@@ -19,6 +19,6 @@ class User{
     echo "Je suis "
     .$this->name.
     " et mon pass est : "
-    .$this->password."<br>";
+    .$this->password." <br> ";
     }
 }
