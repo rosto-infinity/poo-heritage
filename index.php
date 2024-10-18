@@ -3,10 +3,13 @@ require "classes/User.class.php";
 require "classes/Admin.class.php";
 
 $user1 = new User("Eva", "0000");
+$user2 = new User("Lele", "4200");
 $user1->FindUser();
+$user2->FindUser();
 echo "###################3  Admin ########################### <br>";
 $admin1 = new Admin("Waffo", "0000",true);
-$admin1 = new Admin("lele", "0000",false);
+$admin2 = new Admin("lele", "0000",false);
+$admin3 = new Admin("lele", "0000",false);
 $admin1->FindAdmin();
 $admin2->FindAdmin();
 
